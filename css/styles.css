@@ -1,0 +1,144 @@
+@media screen and (min-width: 375px) {
+  .container {
+    margin: 13% 0;
+  }
+
+  .container-left {
+    float: left;
+  }
+
+  .container-left img {
+    border-radius: 15px 0 0 15px;
+  }
+
+  .container-right {
+    border-radius: 0 15px 15px 0;
+  }
+
+  .dimension{
+    width: 300px;
+    height: 450px;
+  }
+
+  .attribution{
+    position: static;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .container {
+    margin-top: 2%;
+    flex-direction: column;
+  }
+
+  .container-left {
+    border-radius: 15px 15px 0 0;
+  }
+
+  .container-left img {
+    border-radius: 15px 15px 0 0;
+  }
+
+  .container-right {
+    border-radius: 0 0 15px 15px;
+  }
+
+  .dimension{
+    width: 340px;
+    height: 420px;
+  }
+}
+
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+
+h4 {
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 7%;
+}
+
+button:hover {
+  background-color: hsl(158, 36%, 30%);
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-right {
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* container right elements */
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding: 0 28px;
+}
+
+.product-category {
+  margin-top: 25px;
+}
+
+.margins {
+  margin: 27px 0 4px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.discount {
+  color: hsl(158, 36%, 30%);
+}
+
+.price-small {
+  text-decoration: line-through;
+  padding-left: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
