@@ -30,7 +30,7 @@
 @media screen and (max-width: 600px) {
 
   .container {
-    margin-top: 2%;
+    margin-top: 5%;
     flex-direction: column;
   }
 
